@@ -1,5 +1,6 @@
 Yet Another EAN13 code generator
     How to use:
+    
         class name:
             EAN13
         parameters:
