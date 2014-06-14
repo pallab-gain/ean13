@@ -1,6 +1,6 @@
 Yet Another EAN13 code generator
-    How to use:
-        Example Use:
+
+    Example Use:
             example 1:
 
                 ean = EAN13() #country code will set to default 88
@@ -17,7 +17,7 @@ Yet Another EAN13 code generator
                 tmp_ean = ean.get(55555)  #will generate 13 digit ean13 number for new product ( new product with given product code as 55555 ) and return it
 
                 print tmp_ean
-        API DOC:
+    API DOC:
             class name:
                 EAN13
             parameters:
