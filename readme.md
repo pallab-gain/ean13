@@ -63,3 +63,22 @@ Yet Another EAN13 code generator
                         product_code ( default = 12345 ): type integer
                     return:
                         13 digit ean13 number: type string
+
+Example Use:
+    example 1:
+
+        ean = EAN13() #country code will set to default 88
+                    #manufacturer code will set to default 12345
+                    #product code will set to default 12345
+
+
+        tmp_ean = ean.gen_ean()   #will generate 13 digit ean13 number and return it
+        print tmp_ean
+
+     example 2:
+        ean = EAN13(22,33333,44444) #take customer country, manufacturer and product code
+        tmp_ean = ean.gen_ean()   #will generate 13 digit ean13 number and return it
+        tmp_ean = ean.get(55555)  #will generate 13 digit ean13 number for new product ( new product with given product code as 55555 ) and return it
+
+        print tmp_ean
+
