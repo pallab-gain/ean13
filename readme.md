@@ -1,8 +1,8 @@
 Yet Another EAN13 code generator
     How to use:
-        class name :
+        class name:
             EAN13
-        parameters :
+        parameters:
             country_code ( default = 88 ) : type integer
             manufacturer_code ( default = 12345 ): type integer
             product_code ( default = 12345 ) : type integer
