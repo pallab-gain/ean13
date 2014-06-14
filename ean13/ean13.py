@@ -64,8 +64,10 @@ class EAN13:
 
         self.checksum = str((10 - (((3 * odd_sum) + evn_sum) % 10)) % 10)
 
-    def gen_ean(self, product_code=12345):
-        self.set_product(product_code)
+    def gen_ean(self, product_code=None):
+        if product_code:
+            self.set_product(product_code)
+
         self.merge()
         self.calculate_checksum()
         return ''.join([self.code, self.checksum])

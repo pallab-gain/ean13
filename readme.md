@@ -60,7 +60,7 @@ Yet Another EAN13 code generator
             7. gen_ean:
                     parameters:
                         //generate 13 digit ean13 number
-                        product_code ( default = 12345 ): type integer
+                        product_code ( default = None ): type integer
                     return:
                         13 digit ean13 number: type string
 
