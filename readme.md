@@ -65,7 +65,7 @@ Yet Another EAN13 code generator
                         13 digit ean13 number: type string
 
 Example Use:
-    example 1:
+        example 1:
 
         ean = EAN13() #country code will set to default 88
                     #manufacturer code will set to default 12345
