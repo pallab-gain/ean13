@@ -18,7 +18,7 @@ Example Use:
                 tmp_ean = ean.get(55555)  #will generate 13 digit ean13 number for new product ( new product with given product code as 55555 ) and return it
 
                 print tmp_ean
-API DOC:
+API Doc:
 
             class name:
                 EAN13
